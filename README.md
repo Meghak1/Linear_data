@@ -6,7 +6,7 @@ The goal of this project is to build an intuitive and practical understanding of
 
 ---
 
-## 📌 Motivation
+##  Motivation
 
 Many classical machine learning models assume that the relationship between input features and the output is **linear**. While this assumption simplifies learning and interpretation, real-world data often violates it. Understanding when linear models work, when they fail, and how to extend them to handle non-linear patterns is a fundamental step toward advanced machine learning.
 
@@ -14,7 +14,7 @@ This repository explores these ideas using synthetic datasets and visualizations
 
 ---
 
-## 🔹 Linearity
+##  Linearity
 
 **Linearity** means that the relationship between input features and the output can be represented using a straight line (or a flat surface in higher dimensions).
 
@@ -35,7 +35,7 @@ These models work well **only when the underlying structure of the data is linea
 
 ---
 
-## 🔹 Non-Linearity
+##  Non-Linearity
 
 **Non-linearity** arises when the relationship between inputs and outputs cannot be captured by a straight line.
 
@@ -52,7 +52,7 @@ This highlights a critical limitation of purely linear approaches.
 
 ---
 
-## ❌ Why Linear Models Fail on Non-Linear Data
+##  Why Linear Models Fail on Non-Linear Data
 
 Linear models lack the **capacity** to bend or adapt their decision boundaries.
 
@@ -66,7 +66,7 @@ To solve this, we need a way to **enrich the feature representation** of the dat
 
 ---
 
-## ✅ Kernel Methods: The Key Idea
+##  Kernel Methods: The Key Idea
 
 Instead of abandoning linear models entirely, kernel methods allow us to **extend them intelligently**.
 
@@ -84,7 +84,7 @@ Support Vector Machines (SVMs) achieve this using **kernel functions**.
 
 ---
 
-## 🔸 Kernels and Geometry
+##  Kernels and Geometry
 
 A **kernel** defines how similarity between data points is measured.
 
@@ -104,7 +104,7 @@ Although the SVM learns a linear boundary in the transformed space, this boundar
 
 ---
 
-## 🔁 Learning Process Summary
+##  Learning Process Summary
 
 The workflow demonstrated in this repository follows a clear conceptual progression:
 
@@ -117,7 +117,7 @@ This is the core idea behind kernelized SVMs.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 lab1/
@@ -132,7 +132,7 @@ lab1/
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 By working through this repository, you will:
 
@@ -143,7 +143,7 @@ By working through this repository, you will:
 
 ---
 
-## 📘 Conclusion
+##  Conclusion
 
 Kernel methods provide a powerful bridge between simplicity and flexibility. They allow us to retain the mathematical elegance of linear models while extending their applicability to complex, real-world patterns.
 
